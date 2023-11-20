@@ -1,0 +1,695 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:320px){
+    .head-title h1{
+        text-align:center;
+        color: #d7a1a1ba;
+        padding: 20px 0px 35px 0px;
+        font-family: fantasy;
+    }
+    header{
+            padding: 20px 20px 0px 20px;
+    }
+    .head-row a{
+        text-decoration:none;
+    }
+    .head-row ul{
+        display:none; 
+    }
+    
+    
+    
+    
+    
+    
+    
+
+    .ban-sec{
+        background-color: #d7a1a1ba;
+        text-align: center;
+       
+    }
+  
+    .ban-col1 img{
+         width: 80%;
+         height: 50vh;
+    }
+    
+    .ban-col2 h1{
+           font-family: sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        color: #000000a8;
+        letter-spacing: 1px;
+        padding: 10px 0px 15px 0px;
+    }
+    .ban-col2 h3{
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        color: #f9f6f6;
+        letter-spacing: 1px;
+        background-color: #e74c4c94;
+        margin-bottom: 20px;
+    }
+    .ban-col2 button{
+        border: 0;
+        padding: 17px;
+        color: gray;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .service-sec{
+        margin:50px;
+    }
+    .service-col1{
+        width:100%;
+    }
+    .service-col1 h3{
+        font-family: system-ui;
+        color: #808080c2;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        padding-bottom: 4px;
+    }
+    .service-col1 h1{
+        font-family: system-ui;
+        color: #808080c2;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    .service-col1 span{
+        color: black;
+        font-weight: 700;
+    }
+    .service-col1 p{
+        color: gray;
+        font-family: system-ui;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .service-col1 ul{
+        padding-top: 15px;
+        padding-left: 18px;
+    }
+    .service-col1 ul li{
+        padding: 4px;
+        color: gray;
+        font-family: system-ui;
+        font-size: 14px;
+    }
+    .service-col1 button{
+        border: 0;
+        background-color: #e74c4c94;
+        color: white;
+        padding: 16px;
+        margin-top: 22px;
+        margin-bottom: 20px;
+    }
+    .service-col2 img{
+            width: 100%;
+            height: 40vh;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    .card-sec{
+       margin: 20px;
+    }
+    
+    .card-title{
+        text-align: center;
+    }
+    .card-title h4{
+        font-family: system-ui;
+        color: #808080c2;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        padding-bottom: 4px;
+    }
+    .card-title h2{
+        font-family: system-ui;
+        color: #2c2828c2;
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        padding-bottom: 4px;
+    }
+    .card-row{
+        padding-top: 12px;
+    }
+    .card-col{
+        padding: 20px;
+        width: 100%;
+    }
+    .card-item{
+        text-align: center;
+    }
+    .card-col h6{
+        line-height: 1.7;
+        font-size: 12px;
+    }
+    .card-col img{
+        margin-bottom: 15px;
+        border-radius: 50%;
+        height: 25vh;
+        width: 60%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .foot-sec{
+        background-color: black;
+        color: white;
+        padding: 44px;
+    }
+    .foot-col{
+        text-align: center;
+    }
+    .foot-col h2{
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding-bottom: 5px;
+    }
+    .foot-col h3{
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding-bottom: 5px;
+    }
+    .foot-contact{
+        padding-top: 16px;
+        font-size: 21px;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+    @media(min-width:720px){
+        .head{
+            display: flex;
+        }
+        .head-title h1{
+            text-align:center;
+            color: #d7a1a1ba;
+            padding: 20px 0px 35px 0px;
+            font-family: fantasy;
+        }
+        header{
+                padding: 20px 20px 0px 20px;
+        }
+        .head-row a{
+            text-decoration:none;
+        }
+        .head-row ul{
+            display:flex; 
+            align-items:center;
+            justify-content:space-evenly;	
+        }
+        .head-row ul li{
+            list-style-type: none;
+            font-size: 16px;
+            letter-spacing: 2px;
+            font-family: Montserrat, sans-serif;
+            color: #000000a3;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        .ban-sec{
+            background-color: #d7a1a1ba;
+            margin-top: 20px;
+           
+        }
+        
+        .ban-row{
+            display:flex;
+        }
+        .ban-col1{
+             width: 50%;
+            height: 50vh;
+        }
+        .ban-col2 h1{
+               font-family: sans-serif;
+            font-weight: 100;
+            font-size: 30px;
+            color: #000000a8;
+            letter-spacing: 2px;
+            padding: 150px 0px 26px 0px;
+        }
+        .ban-col2 h3{
+            font-family: sans-serif;
+            font-weight: 100;
+            font-size: 20px;
+            color: #f9f6f6;
+            letter-spacing: 1px;
+            background-color: #e74c4c94;
+            margin-bottom: 41px;
+        }
+        .ban-col2 button{
+            border: 0;
+            padding: 17px;
+            color: gray;
+            cursor: pointer;
+        }
+        
+        
+        
+        
+        
+        
+        
+        .service-sec{
+            margin:50px;
+        }
+        
+        .service-col1{
+            width:100%;
+        }
+        .service-col1 h3{
+            font-family: system-ui;
+            color: #808080c2;
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-weight: 400;
+            padding-bottom: 6px;
+        }
+        .service-col1 h1{
+            font-family: system-ui;
+            color: #808080c2;
+            font-size: 32px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            padding-bottom: 33px;
+        }
+        .service-col1 span{
+            color: black;
+            font-weight: 700;
+        }
+        .service-col1 p{
+            color: gray;
+            font-family: system-ui;
+            font-size: 14px;
+            text-align: justify;
+        }
+        .service-col1 ul{
+            padding-top: 22px;
+            padding-left: 18px;
+        }
+        .service-col1 ul li{
+            padding: 8px;
+            color: gray;
+            font-family: system-ui;
+            font-size: 14px;
+        }
+        .service-col1 button{
+            border: 0;
+            background-color: #e74c4c94;
+            color: white;
+            padding: 16px;
+            margin-top: 22px;
+        }
+        .service-col2{
+                width: 100%;
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        .card-sec{
+           margin: 20px;
+        }
+        
+        .card-title{
+            text-align: center;
+        }
+        .card-title h4{
+            font-family: system-ui;
+            color: #808080c2;
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-weight: 400;
+            padding-bottom: 6px;
+        }
+        .card-title h2{
+            font-family: system-ui;
+            color: #2c2828c2;
+            font-size: 33px;
+            letter-spacing: 1px;
+            font-weight: 400;
+            padding-bottom: 6px;
+        }
+        .card-row{
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 12px;
+        }
+        .card-col{
+            padding: 30px;
+            width: 50%;
+        }
+        .card-item{
+            text-align: center;
+        }
+        .card-col h6{
+            line-height: 1.7;
+            font-size: 12px;
+        }
+        .card-col img{
+            margin-bottom: 15px;
+            border-radius: 50%;
+            height: 20vh;
+            width: 70%;
+        }
+        
+        
+        
+        
+        
+        
+        
+        .foot-sec{
+            background-color: black;
+            color: white;
+            padding: 44px;
+        }
+        .foot-col{
+            text-align: center;
+        }
+        .foot-col h2{
+            font-weight: 400;
+            letter-spacing: 1px;
+            padding-bottom: 5px;
+        }
+        .foot-col h3{
+            font-weight: 400;
+            letter-spacing: 1px;
+            padding-bottom: 5px;
+        }
+        .foot-contact{
+            padding-top: 16px;
+            font-size: 21px;
+        }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1000px){
+.head-title h1{
+	text-align:center;
+    color: #d7a1a1ba;
+	padding: 20px 0px 35px 0px;
+	font-family: fantasy;
+}
+header{
+	    padding: 20px 20px 0px 20px;
+}
+.head-row a{
+	text-decoration:none;
+}
+.head-row ul{
+	display:flex; 
+	align-items:center;
+	justify-content:space-evenly;	
+}
+.head-row ul li{
+	list-style-type: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: Montserrat, sans-serif;
+    color: #000000a3;
+
+}
+
+
+
+
+
+
+
+
+
+.ban-sec{
+	background-color: #d7a1a1ba;
+	margin: 50px;
+	height:78vh;
+}
+
+.ban-row{
+	display:flex;
+}
+.ban-col1 img{
+	 width: 80%;
+    height: 78vh;
+    overflow: hidden;
+}
+
+.ban-col2{
+	width:50%;
+    height: 78vh;
+}
+.ban-col2 h1{
+       font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: #000000a8;
+    letter-spacing: 2px;
+    padding: 100px 0px 26px 0px;
+}
+.ban-col2 h3{
+	font-family: sans-serif;
+    font-weight: 100;
+    font-size: 26px;
+    color: #f9f6f6;
+    letter-spacing: 1px;
+    background-color: #e74c4c94;
+    margin-bottom: 41px;
+}
+.ban-col2 button{
+	border: 0;
+    width: 26%;
+    padding: 17px;
+    color: gray;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.service-sec{
+	margin:50px;
+}
+.service-row{
+	display:flex;
+    gap: 2%;
+}
+.service-col1{
+	width:40%;
+}
+.service-col1 h3{
+	font-family: system-ui;
+    color: #808080c2;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-bottom: 6px;
+}
+.service-col1 h1{
+    font-family: system-ui;
+    color: #808080c2;
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding-bottom: 33px;
+}
+.service-col1 span{
+    color: black;
+    font-weight: 700;
+}
+.service-col1 p{
+    color: gray;
+    font-family: system-ui;
+    font-size: 14px;
+    text-align: justify;
+}
+.service-col1 ul{
+	padding-top: 22px;
+    padding-left: 18px;
+}
+.service-col1 ul li{
+    padding: 8px;
+    color: gray;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.service-col1 button{
+    border: 0;
+    background-color: #e74c4c94;
+    color: white;
+    padding: 16px;
+    margin-top: 22px;
+}
+.service-col2{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.service-col2 img{
+    width: 69%;
+    height: 69vh;
+}
+
+
+
+
+
+
+
+
+.card-sec{
+   margin: 20px;
+}
+
+.card-title{
+    text-align: center;
+}
+.card-title h4{
+    font-family: system-ui;
+    color: #808080c2;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-bottom: 6px;
+}
+.card-title h2{
+    font-family: system-ui;
+    color: #2c2828c2;
+    font-size: 33px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-bottom: 6px;
+}
+.card-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 12px;
+}
+.card-col{
+    padding: 30px;
+    width: 33.3%;
+}
+.card-item{
+    text-align: center;
+}
+.card-col h6{
+    line-height: 1.7;
+    font-size: 12px;
+}
+.card-col img{
+    margin-bottom: 15px;
+    border-radius: 50%;
+    height: 25vh;
+    width: 50%;
+}
+
+
+
+
+
+
+
+.foot-sec{
+    background-color: black;
+    color: white;
+    padding: 44px;
+}
+.foot-col{
+    text-align: center;
+}
+.foot-col h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+.foot-col h3{
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+.foot-contact{
+    padding-top: 16px;
+    display: flex;
+    gap: 6%;
+    justify-content: center;
+    font-size: 21px;
+}
+}
